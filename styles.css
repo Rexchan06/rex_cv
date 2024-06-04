@@ -127,9 +127,13 @@ a {
     .bio {
         margin-top: 20px;
         text-align: center;
-        font-size: 12px;
     }
 
+    .bio li {
+        font-size: 13px;
+    }
+
+    
     .mybio h2 {
         font-size: 24px;
     }
@@ -139,7 +143,7 @@ a {
     }
 
     .hobbies li img {
-        width: 40;
+        width: 30;
     }
     
     .employment_heading h2 {

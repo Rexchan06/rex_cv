@@ -115,6 +115,10 @@ a {
 }
 
 @media (max-width:680px) {
+    .navbtn li {
+        font-size: 10px;
+    }
+
     .intro {
         display: flex;
         flex-direction: column;
@@ -125,15 +129,16 @@ a {
     }
 
     .bio {
+        flex-wrap: wrap;
         margin-top: 20px;
         text-align: center;
+        
     }
 
     .bio li {
-        font-size: 13px;
+        font-size: 12px;
     }
 
-    
     .mybio h2 {
         font-size: 24px;
     }
@@ -173,15 +178,19 @@ a {
     padding-top: 1.5%;
 }
 
+.hobbies li {
+    list-style-type: none;
+    padding: 0px 25px;
+}
+
 @media (max-width:680px) {
     .hobbies {
         justify-content: center;
     }
-}
 
-.hobbies li {
-    list-style-type: none;
-    padding: 0px 25px;
+    .hobbies li {
+        padding: 0px 10px;
+    }
 }
 
 .pingpong {
